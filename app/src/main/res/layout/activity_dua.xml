@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#8e44ad"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/steak"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Wisata Kuliner"
+        android:textColor="#ffffff"
+        android:id="@+id/appTitle"
+        android:layout_gravity="center_horizontal"
+        android:background="#CF000F"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:layout_gravity="center_horizontal"
+        android:background="#D35400"
+        />
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A = "
+        android:id="@+id/textView4"
+        android:layout_above="@+id/edtB"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="B = "
+        android:id="@+id/textView5"
+        android:layout_alignBottom="@+id/edtB"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="C = "
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/edtC"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtA"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:inputType="numberSigned|numberDecimal"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtB"
+        android:layout_below="@+id/edtA"
+        android:layout_alignLeft="@+id/edtA"
+        android:layout_alignStart="@+id/edtA"
+        android:inputType="numberSigned|numberDecimal"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtC"
+        android:layout_below="@+id/edtB"
+        android:layout_centerHorizontal="true"
+        android:inputType="numberSigned|numberDecimal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Akar Persamaan Kuadrat"
+        android:id="@+id/btnHasil"
+        android:layout_below="@+id/edtC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="X1 = "
+        android:id="@+id/TxtHasilX1"
+        android:layout_below="@+id/btnHasil"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="X2 = "
+        android:id="@+id/TxtHasilX2"
+        android:layout_below="@+id/TxtHasilX1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtHasilX1"
+        android:layout_alignBottom="@+id/TxtHasilX1"
+        android:layout_alignLeft="@+id/edtC"
+        android:layout_alignStart="@+id/edtC"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:editable="false"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtHasilX2"
+        android:layout_alignBottom="@+id/TxtHasilX2"
+        android:layout_alignLeft="@+id/edtHasilX1"
+        android:layout_alignStart="@+id/edtHasilX1"
+        android:editable="false"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvHasil"
+        android:layout_below="@+id/TxtHasilX2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keterangan"
+        android:id="@+id/tvKet"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvHasil"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

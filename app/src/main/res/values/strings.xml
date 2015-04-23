@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PraktikumProjects</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="login">Masuk</string>
+    <string name="judul_baru">SELAMAT DATANG Broo!!</string>
+    <string name="menu2">Menu 2</string>
+    <string name="menu3">Menu 3</string>
+
+    <color name="ungu">#9C27B0</color>
+    <color name="silver">#9E9E9E</color>
+    <color name="putih">#ffffff</color>
+
+    <!-- Recource untuk layout Uts -->
+    <string name="button">OK</string>
+    <string name="var1">variable one</string>
+    <string name="var2">variable two</string>
+    <string name="Kalkulator">Kalkulator</string>
+    <string name="inputan">Proses Input</string>
+    <string name="about">Tentang Ane</string>
+    <string name="persamaan">Persamaan Kuadrat</string>
+    <string name="inputApp">Input Output App</string>
+    <string name="btnPrint">Print Bro!!!</string>
+    <string name="title_activity_contoh">ContohActivity</string>
+    <string name="title_activity_uts">UtsActivity</string>
+    <string name="title_activity_bmi">BmiActivity</string>
+
+</resources>

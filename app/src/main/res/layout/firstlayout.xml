@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/flat2">
+    
+    <Button
+        android:id="@+id/btninfo"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/proses"		
+        android:layout_alignLeft="@+id/proses"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/Kalkulator" />
+
+    <Button
+        android:id="@+id/proses"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/btnabout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/inputan" />
+
+    <Button
+        android:id="@+id/btnabout"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/proses" 
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/about" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/app"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

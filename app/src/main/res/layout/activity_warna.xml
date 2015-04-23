@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0">
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#f44336"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#f44336"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#000000"
+            />
+    </TableRow>
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#9c27b0"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#9c27b0"
+            />
+    </TableRow>
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#2196f3"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#2196f3"
+            />
+    </TableRow>
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#3f51b5"
+            />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#3f51b5"
+            />
+    </TableRow>
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#4caf50"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#4caf50"
+            />
+    </TableRow>
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#ff5722"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#ff5722"
+            />
+    </TableRow>
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#000000"
+            />
+    </TableRow>
+</TableLayout>

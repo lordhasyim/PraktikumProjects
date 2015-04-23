@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0">
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="80dp"
+            android:background="#3f51b5"
+            android:text="Gradasi Warna Biru"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#e8eaf6"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#e8eaf6"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#c5cae9"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#c5cae9"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#9fa8da"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#9fa8da"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#7986cb"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#7986cb"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#5c6bc0"
+            />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#5c6bc0"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#3f51b5"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#3949ab"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#3949ab"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#3949ab"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#303f9f"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#303f9f"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#283593"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#283593"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_height="80px"
+            android:background="#1a237e"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:text="#1a237e"
+            />
+    </TableRow>
+</TableLayout>

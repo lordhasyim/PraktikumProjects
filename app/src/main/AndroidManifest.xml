@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.hasyim.praktikumprojects"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BmiActivity"
+            android:label="bmiActivity"
+            ></activity>
+        <activity
+            android:name=".ContohActivity"
+            android:label="ContohActivity"
+            ></activity>
+        <activity
+            android:name=".EksplisitIntentActivity"
+            android:label="EksplisitIntentActivity"
+            ></activity>
+        <activity
+            android:name=".EksplisitIntentSecondActivity"
+            android:label="EksplisitIntentSecondActivity"
+            ></activity>
+        <activity
+            android:name=".InputActivity"
+            android:label="InputActivity"
+            ></activity>
+        <activity
+            android:name=".PersamaanActivity"
+            android:label="PersamaanActivity"
+            ></activity>
+        <activity
+            android:name=".UtsActivity"
+            android:label="UtsActivity"
+            ></activity>
+    </application>
+
+</manifest>

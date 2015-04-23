@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ff3d00"
+    >
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="Input Output"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/putih"/>
+
+    <EditText
+        android:id="@+id/edtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:hint="Masukkan Inputan"
+        android:textColor="@color/putih"
+        android:textColorHint="@color/putih"
+        android:inputType="textCapCharacters"/>
+
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/btnPrint"
+        android:textColor="@color/putih"
+        />
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/putih"
+        android:textSize="70sp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/btnPrint"/>
+
+</RelativeLayout>
